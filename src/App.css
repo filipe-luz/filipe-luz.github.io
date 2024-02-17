@@ -1,38 +1,83 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css2?family=Prompt');
+
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Prompt',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --main-color: var(--theme-main-color, aqua);
+  --text-color: var(--theme-text-color, white);
+  --background-color: var(--theme-background-color, rgb(24, 24, 24));
+  --background-color-2: var(--theme-background-color-2, rgb(32, 32, 32));
+  --background-color-3: var(--theme-background-color-3, rgb(0, 0, 0));
+  --nav-height: 4rem;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  text-align: center;
+  background-color: var(--background-color);
+  overflow-y: hidden;
+  margin-top: var(--nav-height);
+  height: calc(100dvh - var(--nav-height));
+  scroll-behavior: smooth;
+  .rc-scrollbars-container .rc-scrollbars-view{
+    overflow-x: hidden !important;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+
+.Container{
+  width: 84%;
+  padding: 2rem;
+  overflow-y: hidden;
+  margin-inline: auto;
+}
+
+.floating-button{
+
+  width: 8% !important;
+  right: 0 !important;
+  z-index: 1000 !important;
+}
+
+.floating-button Button{
+  background-color: rgb(40, 40, 40) !important; 
+  border: 2px solid white !important;
+  color: white !important;
+  box-shadow: 0px 0px 4px 2px rgb(0, 217, 255) !important;
+ }
+
+ .floating-button a{
+  background-color: var(--main-color) !important; 
+  color: white !important;
+ }
+
+ 
+@media only screen and (max-width: 1024px) {
+  .Container{
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .floating-button{
+    display: none;
   }
 }

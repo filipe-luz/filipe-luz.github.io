@@ -1,0 +1,156 @@
+.timeline-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.timeline-card-container {
+  width: 90%;
+}
+
+.timeline-line {
+  width: 3px;
+  height: 100%;
+  background-color: var(--main-color);
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+}
+
+.timeline-card {
+  border: 2px solid transparent;
+  
+  border-radius: 1rem;
+  background-color: black;
+  width: 40%;
+  padding: 1rem;
+  margin-left: auto;
+  text-align: start;
+  border-left-color: var(--main-color);
+}
+
+.timeline-content:nth-child(2n) .timeline-card {
+  margin-right: auto;
+  margin-left: 0;
+  border-right-color: var(--main-color);
+  border-left-color: transparent;
+}
+
+.timeline-card-line {
+  width: 10%;
+  height: 3px;
+  position: absolute;
+  background-color: var(--main-color);
+  right: 40%;
+  top: 50%;
+}
+
+.timeline-content:nth-child(2n) .timeline-card-line {
+  background-color: var(--main-color);
+  right: 50%;
+}
+
+.timeline-content {
+  position: relative;
+}
+
+.timeline-card-date {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: max-content;
+  color: var(--text-color) !important;
+  height: 100%;
+  right: 54%;
+  top: 0;
+  font-family: "Work Sans";
+}
+
+.timeline-content:nth-child(2n) .timeline-card-date {
+  left: 54%;
+}
+
+.timeline-card-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 1px;
+}
+
+.timeline-card-icon-content {
+  width: 45px;
+  height: 45px;
+  border: 3px solid var(--main-color);
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 10;
+}
+
+.timeline-card-icon {
+  font-size: 25px;
+}
+
+.timeline-card h2 {
+  color: var(--main-color);
+  font-style: italic;
+  font-variant: small-caps;
+  font-family: "Work Sans";
+}
+
+.timeline-card h3 {
+  color: var(--main-color);
+}
+
+.timeline-card h5 {
+  color: white;
+  font-family: "Work Sans";
+}
+
+@media only screen and (max-width: 1024px) {
+  .timeline-card-container {
+    width: 100%;
+  }
+
+  .timeline-content .timeline-card {
+    margin-left: 0;
+    border-right-color: var(--main-color);
+    border-left-color: transparent;
+    width: 84%;
+    margin-bottom: 1rem;
+  }
+
+  .timeline-line {
+    left: 94%;
+  }
+
+  .timeline-card-icon-container {
+    left: 44%;
+  }
+
+  .timeline-card-line {
+    right: 6%;
+  }
+
+  .timeline-content:nth-child(2n) .timeline-card-line {
+    right: 6%;
+  }
+
+  .timeline-card-date {
+    position: relative;
+    right: 0;
+  }
+
+  
+.timeline-content:nth-child(2n) .timeline-card-date {
+  left: 0;
+}
+
+}

@@ -1,0 +1,19 @@
+.separator {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.separator-line {
+  height: 1px;
+  background-color: var(--text-color);
+  width: 100%;
+  margin-block: 30px;
+}
+
+.separator-title {
+  display: flex;
+  align-items: center;
+  font-size: 42px;
+  font-family: "Russo One";
+  white-space: nowrap;
+}

@@ -1,0 +1,117 @@
+.home-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    gap: 5rem;
+    color: var(--text-color);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.home-text{
+    display: grid;
+    text-align: start;
+    align-content: space-around;
+}
+
+.home-container h1{
+    font-family: 'Russo One';
+    color: var(--main-color);
+    font-size: 5rem;
+}
+
+.home-container h3 {
+    font-size: 3rem;
+}
+
+.home-detail{
+    display: flex;
+    align-items: center;
+    margin-top: -1rem;
+    font-size: 1.5rem;
+    h4{
+        margin-inline: 1.5rem;
+        margin-bottom: 0;
+    }
+}
+
+.home-img-container{
+    transform: translateX(-1rem);
+}
+
+.home-img {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+    z-index: 10;
+    background-color: white;
+}
+
+.home-img-bk {
+    position: absolute;
+    border: 1px solid white;
+    z-index: 1;
+    transform: translateY(1rem) translateX(1rem);
+    width: 20rem;
+    height: 20rem;
+    margin: auto;   
+    display: inline;
+}
+
+.right-animation {
+    animation: move-right 1.5s infinite alternate ease-in-out;
+}
+
+.left-animation {
+    animation: move-left 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes move-right {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(0.8rem); /* Move RxDoubleArrowRight to the right */
+    }
+}
+
+@keyframes move-left {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-0.8rem); /* Move RxDoubleArrowLeft to the left */
+    }
+}
+
+
+  
+@media only screen and (max-width: 1024px) {
+    .home-container{
+        display: block;
+    }
+    .home-container h1{
+        font-size: 3.5rem;
+    }
+    .home-container h3 {
+        font-size: 2rem;
+    }
+    .home-img {     
+        width: 17rem;
+        height: 17rem;
+    }
+    .home-img-bk {     
+        width: 17rem;
+        height: 17rem;
+    }
+    .home-detail{
+        place-self: center;
+        margin-bottom: 2.5rem;
+    }
+    .home-text{
+        text-align: center;
+    }
+}

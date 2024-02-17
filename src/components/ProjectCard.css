@@ -1,0 +1,81 @@
+.project-card-container {
+  background-color: black;
+  border-radius: 1rem;
+  height: 500px;
+  transform-style: preserve-3d;
+  border: 2px solid var(--main-color);
+  transition: transform 0.8s;
+}
+
+.project-card-container:hover {
+  transform: translateY(-1rem);
+}
+
+.project-card-img {
+  margin: auto;
+  width: 100%;
+  height: 70%;
+}
+
+.project-card-img img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-card-front-text {
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  height: 24%;
+  color: white;
+}
+
+.project-card-click {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 98%;
+  font-size: 20px;
+}
+
+.project-card-front {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.project-card-back {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  padding: 2rem;
+  text-align: justify;
+}
+
+.project-card-back h3 {
+  line-height: 2.5rem;
+  color: white;
+}
+
+.flip-card {
+  perspective: 1000px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.flip-card.flipped {
+  transform: rotateY(180deg);
+}
+
+@media only screen and (max-width: 1024px) {
+  .project-card-container:hover {
+    transform: none;
+  }
+}

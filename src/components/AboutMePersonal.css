@@ -1,0 +1,18 @@
+.about-personal {
+  margin-bottom: 0;
+  margin-inline: auto;
+  li {
+    display: grid;
+    font-size: 18px;
+    margin-top: 1rem;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    text-align: start;
+    strong {
+      color: var(--main-color);
+    }
+    a{
+      color: var(--text-color);
+    }
+  }
+}

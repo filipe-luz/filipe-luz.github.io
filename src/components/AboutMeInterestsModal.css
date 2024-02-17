@@ -1,0 +1,34 @@
+.custom-modal .modal-content{
+    border: 2px solid var(--main-color);
+}
+
+.custom-header{
+    background-color: var(--background-color-2);
+    color: var(--text-color);
+    border-bottom: 1px solid var(--main-color);
+}
+
+.custom-header-title{
+    font-size: xx-large;
+}
+
+.custom-body{
+    background-color: var(--background-color-2);
+    color: var(--text-color);
+    font-size: large;
+    text-align: justify;
+}
+
+.custom-footer{
+    background-color: var(--background-color-2);
+    border-top: 1px solid var(--main-color);
+    Button{
+        border: none;
+        color: black;
+        background-color: var(--main-color);
+        &:hover{
+            background-color: var(--main-color);
+            color: black;
+        }
+    }
+}

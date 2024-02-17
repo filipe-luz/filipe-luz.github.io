@@ -1,0 +1,24 @@
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  h2 {
+    font-family: "Work Sans";
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+}
+
+.about-container-card {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media only screen and (max-width: 1250px) {
+  
+  .about-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}

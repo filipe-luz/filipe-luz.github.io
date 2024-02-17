@@ -1,0 +1,103 @@
+.progress-bar-container {
+  display: flex;
+  height: 4rem;
+  gap: 1rem;
+}
+
+.progress-bar {
+  background: black;
+  height: 1rem;
+  position: absolute;  
+  width: 100%;
+  bottom: 0;
+  overflow: visible;
+}
+
+.progress-bar-content {
+  width: 100%;
+  position: relative;
+  height: 3.8rem;
+}
+
+
+.progress-bar-line {
+  height: 100%;
+  background-color: aqua; 
+  background: linear-gradient(90deg, #00FFFF, #0080FF, #00FF80);
+  width: 0;
+  transition: 2s width ease-in-out;
+}
+
+.progress-bar-percentage {
+  position: absolute;
+  transform: translateX(100%);
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 3px 8px;
+  margin-left: 1px;
+  font-size: 1.2rem;
+  z-index: 102;
+  border: 3px solid  var(--main-color);
+}
+
+
+.progress-bar-logo {
+  width: 3.2rem;
+  padding: 4px;
+}
+
+.progress-bar-desc {
+  font-family: 'Work Sans';
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.progress-bar-level {
+  font-family: 'Work Sans';
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  color: var(--main-color);
+  opacity: 0; 
+  transition: opacity 0.7s; 
+}
+
+.progress-bar-level.show {
+  opacity: 1;
+}
+
+.progress-bar-text{
+  display: flex;
+  position: absolute;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .progress-bar-content {
+    height: 3.4rem;
+  }
+  .progress-bar {
+    height: 0.8rem;
+  }
+
+  .progress-bar-logo {
+    width: 2.8rem;
+  }
+
+  .progress-bar-percentage {
+    font-size: 1rem;
+  }
+  
+  .progress-bar-desc {
+    font-size: 1.2rem;
+  }
+  
+  .progress-bar-level {
+    font-size: 1.2rem;
+    margin-left: 1.2rem;
+  }
+
+}

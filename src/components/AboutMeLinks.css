@@ -1,0 +1,22 @@
+.about-links {
+  align-self: center;
+  a {
+    margin-top: 1rem;
+    gap: 2rem;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  a:hover {
+    color: var(--main-color);
+  }
+}
+
+.about-links-icons {
+  font-size: 1.8rem;
+  display: flex;
+}
