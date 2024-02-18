@@ -36,10 +36,6 @@
     }
 }
 
-.home-img-container{
-    transform: translateX(-1rem);
-}
-
 .home-img {
     position: relative;
     width: 20rem;
@@ -110,6 +106,7 @@
     }
     .home-detail{
         place-self: center;
+        margin-top: 0.5rem;
         margin-bottom: 2.5rem;
     }
     .home-text{

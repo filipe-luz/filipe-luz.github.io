@@ -20,5 +20,10 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 3rem;
+    margin-top: 1rem;
+  }
+
+  .about-container-card{
+    margin-bottom: 0.5rem;
   }
 }
