@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aff4c690.css",
+    "main.js": "/static/js/main.d0640aaa.js",
+    "static/media/FilipeLuz_CV.pdf": "/static/media/FilipeLuz_CV.84b6da2efe0b14b5d4e0.pdf",
+    "static/media/CVImage_noBK.jpg": "/static/media/CVImage_noBK.7332c14b288f53913f07.jpg",
+    "static/media/wordCounter.png": "/static/media/wordCounter.1ae5a8ecc11d4a97f49d.png",
+    "static/media/TimelineComponent.png": "/static/media/TimelineComponent.de964c4987d59022ebc4.png",
+    "static/media/react-logo.svg": "/static/media/react-logo.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/sql-database.svg": "/static/media/sql-database.efb7363b2e231ddf7a5c31626c04099d.svg",
+    "static/media/java-logo.svg": "/static/media/java-logo.8cb1fd4a951e0324c83e632215f39b64.svg",
+    "static/media/typescript-logo.svg": "/static/media/typescript-logo.32fb130a1a03eac5cd3d509d5b96f188.svg",
+    "static/media/angular-logo.svg": "/static/media/angular-logo.0a1a68b6fcd0e40935c97ace11e7094d.svg",
+    "index.html": "/index.html",
+    "static/media/css-logo.svg": "/static/media/css-logo.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html-logo.svg": "/static/media/html-logo.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "main.aff4c690.css.map": "/static/css/main.aff4c690.css.map",
+    "main.d0640aaa.js.map": "/static/js/main.d0640aaa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aff4c690.css",
+    "static/js/main.d0640aaa.js"
+  ]
+}
