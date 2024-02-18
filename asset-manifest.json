@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ca8b8228.css",
-    "main.js": "/static/js/main.d0640aaa.js",
-    "static/media/FilipeLuz_CV.pdf": "/static/media/FilipeLuz_CV.84b6da2efe0b14b5d4e0.pdf",
+    "main.js": "/static/js/main.688f1f7c.js",
+    "static/media/FilipeLuz_CV.pdf": "/static/media/FilipeLuz_CV.33bd0fcf094a5574da90.pdf",
     "static/media/CVImage_noBK.jpg": "/static/media/CVImage_noBK.7332c14b288f53913f07.jpg",
     "static/media/wordCounter.png": "/static/media/wordCounter.1ae5a8ecc11d4a97f49d.png",
     "static/media/TimelineComponent.png": "/static/media/TimelineComponent.de964c4987d59022ebc4.png",
@@ -15,10 +15,10 @@
     "static/media/css-logo.svg": "/static/media/css-logo.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html-logo.svg": "/static/media/html-logo.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "main.ca8b8228.css.map": "/static/css/main.ca8b8228.css.map",
-    "main.d0640aaa.js.map": "/static/js/main.d0640aaa.js.map"
+    "main.688f1f7c.js.map": "/static/js/main.688f1f7c.js.map"
   },
   "entrypoints": [
     "static/css/main.ca8b8228.css",
-    "static/js/main.d0640aaa.js"
+    "static/js/main.688f1f7c.js"
   ]
 }
