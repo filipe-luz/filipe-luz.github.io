@@ -50,10 +50,12 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  backface-visibility: hidden;
   transform: rotateY(180deg);
   padding: 2rem;
   text-align: justify;
+  backface-visibility: hidden;
+  background-color: black;
+  border-radius: 1rem;
 }
 
 .project-card-back h3 {

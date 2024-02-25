@@ -17,6 +17,9 @@
     color: var(--text-color);
     font-size: large;
     text-align: justify;
+    p{
+        list-style-position: inside;
+    }
 }
 
 .custom-footer{
