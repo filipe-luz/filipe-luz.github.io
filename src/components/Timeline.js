@@ -9,7 +9,7 @@ export default function Timeline() {
     const cards = [
         {
             title: 'Fullstack Software Developer',
-            date: 'May 2023 - Present',
+            date: 'Aug 2022 - Present',
             location: 'CGI',
             icon: MdWork,
             desc: 'Participation in various projects using tools like Angular, React, C#, SQL, etc.'
