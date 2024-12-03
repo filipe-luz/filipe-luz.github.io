@@ -12,13 +12,13 @@ import htmlLogo from '../assets/html-logo.svg';
 export default function Skills() {
   const content = (
     <div className="skills-container">
-      <ProgressBar logo = {reactLogo} description = {'React'} level = {'Advanced'} percentage = {70}/>
-      <ProgressBar logo = {angularLogo} description = {'Angular'} level = {'Advanced'} percentage = {65}/>
+      <ProgressBar logo = {reactLogo} description = {'React'} level = {'Advanced'} percentage = {75}/>
+      <ProgressBar logo = {cssLogo} description = {'CSS'} level = {'Advanced'} percentage = {70}/>
+      <ProgressBar logo = {htmlLogo} description = {'HTML'} level = {'Advanced'} percentage = {70}/>
+      <ProgressBar logo = {angularLogo} description = {'Angular'} level = {'Intermediate'} percentage = {60}/>
       <ProgressBar logo = {sqlLogo} description = {'SQL'} level = {'Intermediate'} percentage = {60}/>
+      <ProgressBar logo = {tsLogo} description = {'TypeScript'} level = {'Intermediate'} percentage = {60}/>
       <ProgressBar logo = {javaLogo} description = {'Java'} level = {'Intermediate'} percentage = {50}/>
-      <ProgressBar logo = {tsLogo} description = {'TypeScript'} level = {'Intermediate'} percentage = {50}/>
-      <ProgressBar logo = {cssLogo} description = {'CSS'} level = {'Intermediate'} percentage = {50}/>
-      <ProgressBar logo = {htmlLogo} description = {'HTML'} level = {'Intermediate'} percentage = {40}/>
     </div>
   );
 
